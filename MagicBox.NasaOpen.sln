@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicBox.NasaOpen", "MagicB
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MagicBox.NasaOpen.Core", "MagicBox.NasaOpen.Core\MagicBox.NasaOpen.Core.shproj", "{284658A3-46C6-4B12-AE43-1044FF4EB12C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4F63EBD0-698E-444F-896D-1FCB9AC6A394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicBox.NasaOpen.Tests", "MagicBox.NasaOpen.Tests\MagicBox.NasaOpen.Tests.csproj", "{7B49A250-D321-4530-AE6A-ADF4EDF0E700}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		MagicBox.NasaOpen.Core\MagicBox.NasaOpen.Core.projitems*{067c6125-3a6b-4b49-af27-7df046a2e901}*SharedItemsImports = 4
@@ -39,8 +43,29 @@ Global
 		{067C6125-3A6B-4B49-AF27-7DF046A2E901}.Release|x86.ActiveCfg = Release|x86
 		{067C6125-3A6B-4B49-AF27-7DF046A2E901}.Release|x86.Build.0 = Release|x86
 		{067C6125-3A6B-4B49-AF27-7DF046A2E901}.Release|x86.Deploy.0 = Release|x86
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|ARM.Build.0 = Debug|ARM
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|ARM.Deploy.0 = Debug|ARM
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|x64.ActiveCfg = Debug|x64
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|x64.Build.0 = Debug|x64
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|x64.Deploy.0 = Debug|x64
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|x86.ActiveCfg = Debug|x86
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|x86.Build.0 = Debug|x86
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Debug|x86.Deploy.0 = Debug|x86
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|ARM.ActiveCfg = Release|ARM
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|ARM.Build.0 = Release|ARM
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|ARM.Deploy.0 = Release|ARM
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|x64.ActiveCfg = Release|x64
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|x64.Build.0 = Release|x64
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|x64.Deploy.0 = Release|x64
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|x86.ActiveCfg = Release|x86
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|x86.Build.0 = Release|x86
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B49A250-D321-4530-AE6A-ADF4EDF0E700} = {4F63EBD0-698E-444F-896D-1FCB9AC6A394}
 	EndGlobalSection
 EndGlobal
