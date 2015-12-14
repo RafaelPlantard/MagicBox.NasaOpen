@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Prism.Windows.Mvvm;
+﻿using Prism.Windows.Mvvm;
 
-namespace MagicBox.NasaOpen.Core.ViewModels
+namespace MagicBox.NasaOpen.ViewModels
 {
+    /// <summary>
+    /// The view model for main page.
+    /// </summary>
     public sealed class MainPageViewModel : ViewModelBase, IMainPageViewModel
     {
     }

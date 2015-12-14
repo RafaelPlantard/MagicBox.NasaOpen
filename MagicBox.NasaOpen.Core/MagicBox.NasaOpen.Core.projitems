@@ -6,14 +6,29 @@
     <SharedGUID>284658a3-46c6-4b12-ae43-1044ff4eb12c</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>MagicBox.NasaOpen.Core</Import_RootNamespace>
+    <Import_RootNamespace>MagicBox.NasaOpen</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Entities\NeoWs\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Entities\Earth\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Entities\Sounds\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Entities\Patents\" />
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Entities\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Apod\PlanetaryResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\IEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Mars\Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Mars\CameraBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Mars\Photo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Mars\Rover.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Mars\RoverCamera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Mars\RoverOnMars.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Mars\RoverResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\NasaApiHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\INasaApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\INasaOpenService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\NasaOpenService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\IMainPageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainPageViewModel.cs" />
   </ItemGroup>

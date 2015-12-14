@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MagicBox.NasaOpen.Core.ViewModels
+﻿namespace MagicBox.NasaOpen.ViewModels
 {
-    interface IMainPageViewModel
+    /// <summary>
+    /// Defines the commands and other properties that the main page view model must to have.
+    /// </summary>
+    public interface IMainPageViewModel
     {
     }
 }
